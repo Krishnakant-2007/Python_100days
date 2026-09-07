@@ -58,10 +58,10 @@ print(str1.center(50))
 print(str1.center(50, "-"))   #"--------------Welcome to the console--------------"
                               # \____________/\____________________/\____________/
                               #      14                22                 14
-                              #\_________________________________________________/
+                              # \________________________________________________/
                               #                        50
 
-#So basically center(50) aise kaam krta hai; (50 - len(str))/2 spaces or any character we want to apply on the both side of string...
+#So basically center(50) aise kaam krta hai; (50 - len(str))/2) spaces or any character we want to apply on the both side of string...
 # Hence
 print(len(str1)) #22
 
@@ -104,7 +104,7 @@ print(str.endswith("to",6 ,10 ))  #True   Matlab index[6] se index[10] ke baach 
 
 
 
-str1tr1 = "His name is Dan. He is an Honest man."
+str1 = "His name is Dan. He is an Honest man."
 print(str1.find("is")) #idx = 1    variable.find() batata hai hai ki string ke anadar, jo word hmm dhoond rahe hai, vo hai bhi yaa nahi...
 #                             agar hai to, jaha pe vo word sabse pehele dikhta hai, uska index bata deta hai...
 
@@ -199,7 +199,7 @@ str1 = "World Health Organisation"
 print(str1.istitle())  #True;  The istitle() returns only True if the First letter of each word of the string is capitalised, else it returns False
 
 str1 = "To kill a Mocking bird"
-print(str1.istitle())
+print(str1.istitle())  #False
 
 
 

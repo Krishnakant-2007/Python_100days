@@ -21,4 +21,4 @@ if c == "//":
 if c == "%":
     print(f"{a}%{b} = {a%b}")
 else:
-    print("\nbachodi mat kar".title())
+    print("\nbakchodi mat kar".title())

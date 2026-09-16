@@ -49,7 +49,6 @@ for color in colors:
                   #Green
                   #Blue
                   #Yellow
-
 print("")
 
 for color in colors:
